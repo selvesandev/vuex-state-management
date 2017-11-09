@@ -59,3 +59,16 @@ new Vue({
 ```
 
 Now you can access your store using `$store` inside your components.
+
+```
+export default {
+        methods: {
+            increment() {
+                this.$store.state.counter++;
+            },
+            decrement() {
+                this.$store.state.counter--;
+            }
+        }
+    }
+```
