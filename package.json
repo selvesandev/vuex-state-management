@@ -1,0 +1,23 @@
+{
+  "name": "vuex-state-management",
+  "version": "1.0.0",
+  "description": "Central Storage of the data. There is one file in our application where we store our application state. That does not mean that our component does not have their own state. If you have a property in a component which is only used by that component there is no use of that keeping it in the state.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selvesandev/vuex-state-management.git"
+  },
+  "author": "selvesan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/selvesandev/vuex-state-management/issues"
+  },
+  "homepage": "https://github.com/selvesandev/vuex-state-management#readme",
+  "dependencies": {
+    "vue": "^2.5.3",
+    "vuex": "^3.0.1"
+  }
+}
