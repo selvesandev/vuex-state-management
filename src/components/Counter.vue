@@ -12,7 +12,7 @@
                 this.$store.state.counter++;
             },
             decrement() {
-                this.$store.state.counter++;
+                this.$store.state.counter--;
             }
         }
     }

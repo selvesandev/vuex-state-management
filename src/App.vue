@@ -1,23 +1,19 @@
 <template>
-    <div class="container">
-        <div class="row">
-            <h1>
-                Vuex
-            </h1>
-            <app-result></app-result>
-            <app-counter></app-counter>
-        </div>
+    <div id="app">
+        <h1>Vue x</h1>
+        <result></result>
+        <counter></counter>
     </div>
 </template>
 
 <script>
-    import Counter from './Components/Counter.vue'
-    import Result from './Components/Result.vue'
+    import Counter from './components/Counter.vue'
+    import Result from './components/Result.vue'
 
     export default {
         components: {
-            appCounter: Counter,
-            appResult: Result
+            Counter, Result
         }
     }
 </script>
+

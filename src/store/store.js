@@ -3,9 +3,10 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex);
 
-new Vuex.Store({
+export const store = new Vuex.Store({
     //store is a method where you pass an object.
     state: {
         counter: 0
     }
 });
+
